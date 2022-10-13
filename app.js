@@ -23,7 +23,6 @@ text.innerText = `${days}j ${hours}h ${minutes}m ${seconds}s`;
 
 }
 
-
 const countDownInterval = setInterval(() => {
     getChrono()
 }, 1000);
